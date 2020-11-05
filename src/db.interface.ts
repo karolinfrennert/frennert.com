@@ -6,10 +6,10 @@ export interface Data {
   fullName: string;
   project: [{
     name: string;
-    technology: [string: any];
+    technology: string[];
     description: string;
     github: string;
-    picture: string;
+
   }];
 
 

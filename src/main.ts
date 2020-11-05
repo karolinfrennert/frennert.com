@@ -5,7 +5,12 @@ const aboutMe: Data = {
   lastName: 'Frennert',
   email: 'karolin@frennert.com',
   fullName: '${firstName} ${lastName}',
-
+  project: [{
+    name: 'Kurt',
+    technology: ['CSS', 'JS', 'TypeScript'],
+    description: 'Every cat deserves a portfolio',
+    github: 'https://github.com/karolinfrennert/portfolio-Kurt',
+  }]
 }
 
 console.log("hay");
