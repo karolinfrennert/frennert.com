@@ -1,14 +1,22 @@
+import { title } from 'process'
 import { Project } from './db.interface'
 import { Data } from './db.interface'
 import { Projects } from './db.interface'
 
-const KurtPortfolio: Projects = [
+const AllProjects: Projects = [
   {
-    name: 'Kurt',
-    technology: ['CSS', 'JS', 'TypeScript'],
+    name: "Kurt's portfolio",
+    technology: ['CSS', 'JavaScript', 'TypeScript'],
     description: 'Every cat deserves a portfolio',
     github: 'https://github.com/karolinfrennert/portfolio-Kurt',
-  }
+    image: {
+      src: 'help',
+      alt: 'pretty boi',
+      title: 'Why he look like this'
+
+    }
+  },
+
 ]
 
 const aboutMe: Data = {
@@ -30,7 +38,7 @@ const aboutMe: Data = {
       text: 'Projects'
     },
     {
-      href: './contact.html',
+      href: '#contact',
       text: 'Contact'
     },
   ],

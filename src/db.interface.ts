@@ -11,9 +11,10 @@ export interface Data {
 
 export interface Project {
   name: string;
-  technology: string[];
+  technology: Technology[];
   description: string;
   github: string;
+  image: Image;
 }
 
 export type Projects = Project[];
@@ -22,4 +23,13 @@ type MenuItems = {
   href: string;
   text: string;
 }
+
+type Image = {
+  src: string;
+  alt: string;
+  title?: string;
+
+}
+
+type Technology = 'CSS' | 'JavaScript' | 'Firebase' | 'TypeScript' | 'HTML';
 
