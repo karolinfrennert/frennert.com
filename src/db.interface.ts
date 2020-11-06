@@ -31,5 +31,5 @@ type Image = {
 
 }
 
-type Technology = 'CSS' | 'JavaScript' | 'Firebase' | 'TypeScript' | 'HTML';
+type Technology = 'CSS' | 'JavaScript' | 'Firebase' | 'TypeScript' | 'HTML' | 'Java';
 

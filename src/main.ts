@@ -16,6 +16,41 @@ const AllProjects: Projects = [
 
     }
   },
+  {
+    name: 'Habit Tracker',
+    technology: ['CSS', 'Firebase', 'JavaScript', 'HTML'],
+    description: 'Habit TRacker to track your weekly progress',
+    github: 'https://github.com/habit-tracker',
+    image: {
+      src: 'string',
+      alt: 'string',
+      title: 'Make sure to stay on tack'
+    }
+  },
+  {
+    name: 'BlackJack game',
+    technology: ['Java'],
+    description: 'Win against the machine!',
+    github: 'https://github.com/karolinfrennert/BlackJack',
+    image: {
+      src: 'nan',
+      alt: 'no',
+      title: 'help',
+    }
+  },
+  {
+    name: 'Grocery List',
+    technology: ['JavaScript', 'CSS', 'HTML'],
+    description: 'A grocery list built in vanilla JavaScript',
+    github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
+    image: {
+      src: 'nocepic',
+      alt: 'verynice pic',
+      title: 'look a nice pic',
+
+    },
+
+  }
 
 ]
 
