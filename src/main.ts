@@ -10,9 +10,9 @@ const AllProjects: Projects = [
     description: 'Every cat deserves a portfolio',
     github: 'https://github.com/karolinfrennert/portfolio-Kurt',
     image: {
-      src: 'help',
-      alt: 'pretty boi',
-      title: 'Why he look like this'
+      src: './images/Mockup-Kurt.jpg',
+      alt: 'Mockup picture of the website inside of an ipad',
+      title: 'Cat portfolio'
 
     }
   },
@@ -20,10 +20,10 @@ const AllProjects: Projects = [
     name: 'Habit Tracker',
     technology: ['CSS', 'Firebase', 'JavaScript', 'HTML'],
     description: 'Habit TRacker to track your weekly progress',
-    github: 'https://github.com/habit-tracker',
+    github: 'https://github.com/karolinfrennert/firebase-habit-tacker',
     image: {
-      src: 'string',
-      alt: 'string',
+      src: './images/Mockup-Habittacker.jpg',
+      alt: 'Mockup picture of the habit tracker in a macbook ',
       title: 'Make sure to stay on tack'
     }
   },
@@ -33,9 +33,9 @@ const AllProjects: Projects = [
     description: 'Win against the machine!',
     github: 'https://github.com/karolinfrennert/BlackJack',
     image: {
-      src: 'nan',
-      alt: 'no',
-      title: 'help',
+      src: './images/mockup-blackjack.jpg',
+      alt: 'Mockup picture displaying the game in the browser',
+      title: 'Fun game!',
     }
   },
   {
@@ -44,9 +44,9 @@ const AllProjects: Projects = [
     description: 'A grocery list built in vanilla JavaScript',
     github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
     image: {
-      src: 'nocepic',
-      alt: 'verynice pic',
-      title: 'look a nice pic',
+      src: './images/mockup-GroceryList.jpg',
+      alt: 'Mockup picture of a Mac, showcasing the Grocery-list being used',
+      title: 'Save your groceries',
 
     },
 
@@ -96,6 +96,7 @@ const aboutMe: Data = {
 }
 
 
+////This is not doing anything but can be used for templates
 const supportsTemplate = function () {
   return 'content' in document.createElement('template');
 }
@@ -110,6 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(content);
   }
 })
+
+///////
 
 const addLink = (href: string, text: string) => {
   const link = document.createElement('a');
