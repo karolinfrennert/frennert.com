@@ -57,7 +57,7 @@ const aboutMe: Data = {
   firstName: 'Karolin',
   lastName: 'Frennert',
   email: 'karolin@frennert.com',
-  fullName: '${firstName} ${lastName}',
+  fullName: 'Karolin Frennert',
   mainMenu: [
     {
       href: './index.html',
