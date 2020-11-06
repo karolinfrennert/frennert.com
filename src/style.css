@@ -1,9 +1,47 @@
-/*Media */
-
-@media screen and (min-width: 620px){
+*{
 
 }
 
+/*Variables*/
+:root {
+  --primary-pink: #F9DED5 ;
+  --secondary-pink: #FFECE5;
+  --grey: #E1E1E1;
+  --white: #FEFEFE ; 
+  --black: #0D0D0D ;
+
+}
+/*Reset*/
+
+
+/*Base styles*/
+
+
+/*Font styles*/
+
+/*Mobile styles*/
+
+/*Small Tablet styles*/
+
+@media only screen and (min-width: 620px){
+  body{
+    background: lightblue;
+  }
+  
+ 
+}
+/*Large tablets and aptop style*/
 @media screen and (min-width: 960px){
+  body {
+    background: lightcoral;
+  }
+
+}
+/*Desktop styles*/
+
+@media screen and (min-width: 1200px){
+  body{
+    background: lightgoldenrodyellow;
+  }
 
 }
