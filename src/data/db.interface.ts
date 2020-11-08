@@ -4,6 +4,7 @@ export interface Data {
   email: string;
   fullName: string;
   mainMenu: MenuItems[];
+  projects: Projects;
   footer: MenuItems[];
 };
 
