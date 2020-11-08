@@ -20,6 +20,7 @@ const AllProjects: Projects = [
     technology: ['CSS', 'Firebase', 'JavaScript', 'HTML'],
     description: 'Habit TRacker to track your weekly progress',
     github: 'https://github.com/karolinfrennert/firebase-habit-tacker',
+    demo: 'https://habit-tracker-hi.web.app/',
     image: {
       src: './images/Mockup-Habittacker.jpg',
       alt: 'Mockup picture of the habit tracker in a macbook ',
@@ -42,6 +43,7 @@ const AllProjects: Projects = [
     technology: ['JavaScript', 'CSS', 'HTML'],
     description: 'A grocery list built in vanilla JavaScript',
     github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
+    demo: 'https://grocery-list.frennert.com/',
     image: {
       src: './images/mockup-GroceryList.jpg',
       alt: 'Mockup picture of a Mac, showcasing the Grocery-list being used',
