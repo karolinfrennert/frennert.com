@@ -52,6 +52,7 @@ aboutMe.projects.forEach(project => {
   image.src = project.image.src;
   image.alt = project.image.alt;
   image.title = project.image.title;
+  image.loading = 'lazy';
   project.technology.forEach(t => {
     const li = document.createElement('li');
     li.innerText = t;
