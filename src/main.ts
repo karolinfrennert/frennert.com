@@ -49,7 +49,7 @@ aboutMe.projects.forEach(project => {
   const githubLink: HTMLAnchorElement = (cloneTemplate as HTMLElement).querySelector('.github-link');
 
   title.innerText = project.name;
-  image.src = `./images/${project.image.src}`;
+  image.src = project.image.src;
   image.alt = project.image.alt;
   image.title = project.image.title;
   project.technology.forEach(t => {
@@ -70,3 +70,4 @@ aboutMe.projects.forEach(project => {
 
 
 })
+

@@ -7,7 +7,7 @@ export const AllProjects: Projects = [
     description: 'Every cat deserves a portfolio',
     github: 'https://github.com/karolinfrennert/portfolio-Kurt',
     image: {
-      src: 'Mockup-Kurt.jpg',
+      src: 'https://i.ibb.co/pw16yws/Mockup-Kurt.jpg',
       alt: 'Mockup picture of the website inside of an ipad',
       title: 'Cat portfolio'
 
@@ -20,7 +20,7 @@ export const AllProjects: Projects = [
     github: 'https://github.com/karolinfrennert/firebase-habit-tacker',
     demo: 'https://habit-tracker-hi.web.app/',
     image: {
-      src: 'Mockup-Habittacker.jpg',
+      src: 'https://i.ibb.co/gFqZz38/Mockup-Habittacker.jpg',
       alt: 'Mockup picture of the habit tracker in a macbook ',
       title: 'Make sure to stay on tack'
     }
@@ -31,7 +31,7 @@ export const AllProjects: Projects = [
     description: 'Win against the machine!',
     github: 'https://github.com/karolinfrennert/BlackJack',
     image: {
-      src: 'mockup-blackjack.jpg',
+      src: 'https://i.ibb.co/5FPYVbn/mockup-blackjack.jpg',
       alt: 'Mockup picture displaying the game in the browser',
       title: 'Fun game!',
     }
@@ -43,7 +43,7 @@ export const AllProjects: Projects = [
     github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
     demo: 'https://grocery-list.frennert.com/',
     image: {
-      src: 'mockup-GroceryList.jpg',
+      src: 'https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg',
       alt: 'Mockup picture of a Mac, showcasing the Grocery-list being used',
       title: 'Save your groceries',
 
