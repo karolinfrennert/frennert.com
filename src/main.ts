@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Ceating Nav
 const navBar = document.createElement('nav');
-navBar.classList.add('main-nav');
+navBar.classList.add('navbar');
 const addLinkToNavBar = (element: HTMLAnchorElement) => {
   navBar.appendChild(element);
 }
@@ -17,6 +17,7 @@ const addLinkToNavBar = (element: HTMLAnchorElement) => {
 aboutMe.mainMenu.forEach(menuItem => {
   addLinkToNavBar(addLink(menuItem.href, menuItem.text));
 });
+
 
 document.body.insertAdjacentElement('afterbegin', navBar)
 
