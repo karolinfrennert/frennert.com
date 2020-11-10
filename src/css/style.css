@@ -13,7 +13,7 @@ html {
 :root {
   --primary-pink: #F9DED5 ;
   --secondary-pink: #FFECE5;
-  --grey: #E1E1E1;
+  --grey: rgb(225, 225, 225, 0.5);
   --white: #FEFEFE ; 
   --black: #0D0D0D ;
 
@@ -111,10 +111,16 @@ main {
   display: grid;
   place-items: center;  
 }
-
-.demo-link {
-  margin: 2rem;
+.project-footer{
+display: grid;
+place-items: var(--secondary-pink);
+background: oldlace;
+align-self: end;
+margin: 0 -1rem;
+height: 60px;
+padding: 1rem;
 }
+
 
 .about {
   background: var(--primary-pink);
@@ -128,18 +134,29 @@ background: var(--grey);
 
 
 .project-wrapper{
-  background: var(--grey);
-  padding: 1rem;
-  margin: 1rem;
-  
+  box-shadow: 0px 10px 10px var(--grey);
+  gap: 10px;
+  padding: 1rem;  
 }
+
+.work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 /*Small Tablet styles*/
 
 @media only screen and (min-width: 620px){
   body{
    
   }
+  .project-wrapper{
+    
+  }
   
+  .work-grid {
+    grid-template-columns: 1fr 1fr;
+  }
  
 }
 /*Large tablets and aptop style*/
@@ -147,6 +164,7 @@ background: var(--grey);
   body {
     
   }
+  
 
 }
 /*Desktop styles*/
@@ -154,7 +172,6 @@ background: var(--grey);
 @media screen and (min-width: 1200px){
 
   .work-grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
   
