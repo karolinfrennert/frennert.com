@@ -38,7 +38,7 @@ document.body.insertAdjacentElement('beforeend', footer);
 //Create projects
 
 const template: HTMLTemplateElement = document.querySelector('#projects-template');
-const projectsWrapper = document.querySelector('#work');
+const workWrapper = document.querySelector('#work-wrapper');
 
 aboutMe.projects.forEach(project => {
   const cloneTemplate = template.content.cloneNode(true);
@@ -67,12 +67,8 @@ aboutMe.projects.forEach(project => {
   githubLink.href = project.github;
   githubLink.innerText = GITHUB_TEXT;
 
-  projectsWrapper.appendChild(cloneTemplate);
+  workWrapper.appendChild(cloneTemplate);
 })
 
 //Creating the about section
 
-const about = document.querySelector('.about');
-
-let innerText: HTMLElement = document.createElement('p');
-innerText = aboutMe.aboutSection;

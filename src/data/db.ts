@@ -2,6 +2,22 @@ import { Data, Projects } from '../data/db.interface'
 
 export const AllProjects: Projects = [
   {
+    name: 'Grocery List',
+    technology: ['JavaScript', 'CSS', 'HTML'],
+    description: 'A grocery list built in vanilla JavaScript',
+    github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
+    demo: 'https://grocery-list.frennert.com/',
+    image: {
+      src: 'https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg',
+      alt: 'Mockup picture of a Mac, showcasing the Grocery-list being used',
+      title: 'Save your groceries',
+
+
+
+    }
+  },
+
+  {
     name: "Kurt's portfolio",
     technology: ['CSS', 'JavaScript', 'TypeScript'],
     description: 'Every cat deserves a portfolio',
@@ -36,20 +52,8 @@ export const AllProjects: Projects = [
       title: 'Fun game!',
     }
   },
-  {
-    name: 'Grocery List',
-    technology: ['JavaScript', 'CSS', 'HTML'],
-    description: 'A grocery list built in vanilla JavaScript',
-    github: 'https://github.com/karolinfrennert/Grocery-List-HyperIsland',
-    demo: 'https://grocery-list.frennert.com/',
-    image: {
-      src: 'https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg',
-      alt: 'Mockup picture of a Mac, showcasing the Grocery-list being used',
-      title: 'Save your groceries',
 
-    },
 
-  }
 
 ]
 

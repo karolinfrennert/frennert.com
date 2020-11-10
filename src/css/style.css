@@ -40,7 +40,7 @@ html {
 body {
   background: var(--white);
   font-family: var(--main-font);
-  margin: 0 1rem 0 1rem;
+  
   
 }
 
@@ -73,24 +73,36 @@ img {
 }
 
 .header-name {
-  color: var(--white);
+  color: var(--black);
   font-size: 1.875rem;
-  text-shadow: 2px 3px 3px var(--black);
+  
+  text-shadow: 2px 3px 3px var(--grey);
 }
 
-.main-content {
+main {
   display: flex;
   flex-direction: column;
+  margin: 1rem;
 
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  
 }
 
 .navbar, .main-footer{
   display: flex;
-  justify-content: space-around;
-  font-size: 1.5rem;
+  justify-content: space-around;  
   height: 4rem;
   background-color: var(--secondary-pink);
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.projects-heading {
+  font-family: var(--heading-font);
+  font-size: 2rem;
 }
 
  
@@ -102,6 +114,15 @@ img {
 
 .demo-link {
   margin: 2rem;
+}
+
+.about {
+  background: var(--primary-pink);
+  padding: 1rem;
+}
+
+.contact-title {
+background: var(--grey);
 }
 
 
@@ -132,25 +153,12 @@ img {
 
 @media screen and (min-width: 1200px){
   
-  .navbar { grid-area: nav; }
-  .header-wrapper {grid-area: header;}
-  .projects-heading {grid-area: heading;}
-  .main-footer {grid-area: footer;}
-  .project-wrapper{grid-area: project;}
-  .about {grid-area: about;}
-  .contact-title{grid-area: contact;}
+   
+   
+  .navbar, .main-footer{ 
+    font-size: 1.5rem;
+  } 
   
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-  }
-  
-  
-    
-    
-    ;
       
         
   }
@@ -160,5 +168,3 @@ img {
   
 
   
-
-}
