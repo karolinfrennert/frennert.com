@@ -68,8 +68,11 @@ aboutMe.projects.forEach(project => {
   githubLink.innerText = GITHUB_TEXT;
 
   projectsWrapper.appendChild(cloneTemplate);
-
-
-
 })
 
+//Creating the about section
+
+const about = document.querySelector('.about');
+
+let innerText: HTMLElement = document.createElement('p');
+innerText = aboutMe.aboutSection;

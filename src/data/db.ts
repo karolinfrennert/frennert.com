@@ -93,5 +93,11 @@ export const aboutMe: Data = {
       text: 'LinkedIn',
 
     }
-  ]
+
+  ],
+  aboutSection: `When I was introduced to coding, something I've always been curious about but never dared to try,
+  I was hooked. The constant rollercoaster of sucess and failure, feeling like you know everything in
+  one moment and then feeling completely helpless in the next really interested me. The ability to
+  create and visualise your ideas and making them into real projects, as well as the fact that there is always
+  something more to learn, makes me strive to become better, every day.`,
 }

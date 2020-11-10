@@ -69,6 +69,7 @@ img {
   height: 100vh;
   background: var(--primary-pink);
   width: 100%;
+  text-align: center;
 }
 
 .header-name {
@@ -83,13 +84,32 @@ img {
 
 }
 
-.navbar, .main-footer {
+.navbar, .main-footer{
   display: flex;
   justify-content: space-around;
-  
+  font-size: 1.5rem;
+  height: 4rem;
+  background-color: var(--secondary-pink);
+  padding: 1rem 1rem 0 1rem;
 }
 
-.project-h3 {
+ 
+
+.project-footer, .projects-heading {
+  display: grid;
+  place-items: center;  
+}
+
+.demo-link {
+  margin: 2rem;
+}
+
+
+
+.project-wrapper{
+  background: var(--grey);
+  padding: 1rem;
+  margin: 1rem;
   
 }
 /*Small Tablet styles*/
@@ -111,14 +131,34 @@ img {
 /*Desktop styles*/
 
 @media screen and (min-width: 1200px){
-  body{
   
+  .navbar { grid-area: nav; }
+  .header-wrapper {grid-area: header;}
+  .projects-heading {grid-area: heading;}
+  .main-footer {grid-area: footer;}
+  .project-wrapper{grid-area: project;}
+  .about {grid-area: about;}
+  .contact-title{grid-area: contact;}
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  
+    
+    
+    ;
+      
         
   }
 
-  .project-wrapper{
-    display: grid;
-    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
-  }
+  
+
+  
+
+  
 
 }

@@ -6,6 +6,7 @@ export interface Data {
   mainMenu: MenuItems[];
   projects: Projects;
   footer: MenuItems[];
+  aboutSection: string;
 };
 
 export interface Project {
