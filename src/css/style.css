@@ -152,6 +152,11 @@ background: var(--grey);
 /*Desktop styles*/
 
 @media screen and (min-width: 1200px){
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   
    
    
