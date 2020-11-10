@@ -17,21 +17,86 @@ html {
   --white: #FEFEFE ; 
   --black: #0D0D0D ;
 
+  /*Font styles*/
+
+  --heading-font: 'Playfair Display', serif;
+  --main-font: 'Raleway', sans-serif;
+
+  /*Font sizes*/
+  
+
+
+
 }
 
 
 /*Base styles*/
 
 
-/*Font styles*/
+
 
 /*Mobile styles*/
 
+body {
+  background: var(--white);
+  font-family: var(--main-font);
+  margin: 0 1rem 0 1rem;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+  background: var(--secondary-pink);
+  
+}
+
+a:hover {
+  text-shadow: 0.5px 0.5px var(--black);
+  transition: 0.3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-wrapper {
+  font-family: var(--heading-font);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: var(--primary-pink);
+  width: 100%;
+}
+
+.header-name {
+  color: var(--white);
+  font-size: 1.875rem;
+  text-shadow: 2px 3px 3px var(--black);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar, .main-footer {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.project-h3 {
+  
+}
 /*Small Tablet styles*/
 
 @media only screen and (min-width: 620px){
   body{
-    background: lightblue;
+   
   }
   
  
@@ -39,7 +104,7 @@ html {
 /*Large tablets and aptop style*/
 @media screen and (min-width: 960px){
   body {
-    background: lightcoral;
+    
   }
 
 }
@@ -47,7 +112,13 @@ html {
 
 @media screen and (min-width: 1200px){
   body{
-    background: lightgoldenrodyellow;
+  
+        
+  }
+
+  .project-wrapper{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
   }
 
 }

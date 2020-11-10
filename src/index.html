@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
   <title>Karolin Frennert</title>
 </head>
@@ -11,9 +12,9 @@
 <body>
 
   <template id="projects-template">
-    <section>
+    <section class="project-wrapper">
       <header>
-        <h3></h3>
+        <h3 class="project-h3"></h3>
       </header>
       <img />
       <br>
@@ -28,10 +29,11 @@
   </template>
 
   <header class="header-wrapper">
-    <h2 class="">Hey there, I'm</h2>
-    <h1 class="">Karolin</h1>
-    <h2 class="">I'm a Frontend Developer</h2>
-    <h3 class="">Stockholm, Sweden | Hyper Island </h3>
+    <div class="header-content">
+      <h2 class="header-greeting">Hey there, I'm <span class="header-name">Karolin</span></h2>
+      <h2 class="header-job">I'm a <span class="header-name">Frontend Developer</span></h2>
+      <h3 class="header-location">Stockholm, Sweden | Hyper Island </h3>
+    </div>
   </header>
 
   <main class="main-content">
