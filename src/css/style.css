@@ -113,8 +113,8 @@ main {
 }
 .project-footer{
 display: grid;
-place-items: var(--secondary-pink);
-background: oldlace;
+place-items: center;
+background: var(--secondary-pink);;
 align-self: end;
 margin: 0 -1rem;
 height: 60px;
@@ -147,12 +147,7 @@ background: var(--grey);
 /*Small Tablet styles*/
 
 @media only screen and (min-width: 620px){
-  body{
-   
-  }
-  .project-wrapper{
-    
-  }
+  
   
   .work-grid {
     grid-template-columns: 1fr 1fr;
@@ -161,9 +156,7 @@ background: var(--grey);
 }
 /*Large tablets and aptop style*/
 @media screen and (min-width: 960px){
-  body {
-    
-  }
+  
   
 
 }
