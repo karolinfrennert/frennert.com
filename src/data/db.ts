@@ -84,7 +84,7 @@ export const aboutMe: Data = {
       text: 'About'
     },
     {
-      href: '#projects',
+      href: '#show-projects',
       text: 'Projects'
     },
     {

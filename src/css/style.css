@@ -11,11 +11,14 @@ html {
 
 /*Variables*/
 :root {
+
+  font-size: 16px;
+
   --primary-pink: #F9DED5 ;
   --secondary-pink: #FFECE5;
   --grey: rgb(225, 225, 225, 0.5);
   --white: #FEFEFE ; 
-  --black: #0D0D0D ;
+  --black: rgb(13, 13, 13) ;
 
   /*Font styles*/
 
@@ -30,17 +33,11 @@ html {
 }
 
 
-/*Base styles*/
-
-
-
-
 /*Mobile styles*/
 
 body {
   background: var(--white);
-  font-family: var(--main-font);
-  
+  font-family: var(--main-font); 
   
 }
 
@@ -62,6 +59,13 @@ img {
   height: auto;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
+}
+
 .header-wrapper {
   font-family: var(--heading-font);
   display: grid;
@@ -74,21 +78,16 @@ img {
 
 .header-name {
   color: var(--black);
-  font-size: 1.875rem;
-  
+  font-size: 1.875rem;  
   text-shadow: 2px 3px 3px var(--grey);
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
 
-}
 
 .navbar {
   position: fixed;
   width: 100%;
+  
   
 }
 
@@ -97,62 +96,48 @@ main {
   justify-content: space-around;  
   height: 4rem;
   background-color: var(--secondary-pink);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 .projects-heading {
   font-family: var(--heading-font);
   font-size: 2rem;
 }
-
  
 
-.project-footer, .projects-heading {
-  display: grid;
-  place-items: center;  
-}
+
 .project-footer{
-display: flex
-;
-justify-content: space-around;
-background: var(--secondary-pink);;
-align-self: end;
+display: flex;
+justify-content: space-evenly; 
+align-items: center;
+background: var(--secondary-pink);
 margin: 0 -1rem;
 height: 60px;
 
 }
 
-.project-footer a {
-  padding-bottom: 0.2rem ;
-}
-
-
-.about {
-  background: var(--primary-pink);
-  padding: 1rem;
-}
-
-.contact-title {
-background: var(--grey);
-}
-
-
-
 .project-wrapper{
   box-shadow: 0px 10px 10px var(--grey);
   gap: 10px;
-  padding: 1rem;  
+  padding: 2rem;  
   border-radius: 6px;
 }
 
-#projects {
-  padding: 20px
+.project-wrapper:hover {
+  box-shadow: 0px 10px 10px rgba(13, 13, 13, 0.6);
+  transition: 0.4s;
 }
 
 .showcase-projects {
   font-family: var(--heading-font);
   font-size: 3rem;
   background: none;
+  display: grid;
+  place-items: center;
+}
+
+.showcase-projects-p {
+  font-size: 2rem;
 }
 
 .work-grid {
@@ -163,6 +148,7 @@ background: var(--grey);
 
 .project-h3 {
   font-family: var(--heading-font);
+  font-size: 1.5rem;
 }
 
 /*Small Tablet styles*/
