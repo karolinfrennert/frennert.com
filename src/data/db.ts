@@ -52,6 +52,18 @@ export const AllProjects: Projects = [
       title: 'Fun game!',
     }
   },
+  {
+    name: 'My Portfolio',
+    technology: ['TypeScript', 'CSS', 'HTML'],
+    description: 'Making my own portfolio',
+    github: 'https://github.com/karolinfrennert/frennert.com',
+    demo: 'https://portfolio.frennert.com/',
+    image: {
+      src: 'https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg',
+      alt: 'Mockup picture displaying the game in the browser',
+      title: 'Fun game!',
+    }
+  },
 
 
 

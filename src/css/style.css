@@ -112,13 +112,18 @@ main {
   place-items: center;  
 }
 .project-footer{
-display: grid;
-place-items: center;
+display: flex
+;
+justify-content: space-around;
 background: var(--secondary-pink);;
 align-self: end;
 margin: 0 -1rem;
 height: 60px;
-padding: 1rem;
+
+}
+
+.project-footer a {
+  padding-bottom: 0.2rem ;
 }
 
 
@@ -137,11 +142,27 @@ background: var(--grey);
   box-shadow: 0px 10px 10px var(--grey);
   gap: 10px;
   padding: 1rem;  
+  border-radius: 6px;
+}
+
+#projects {
+  padding: 20px
+}
+
+.showcase-projects {
+  font-family: var(--heading-font);
+  font-size: 3rem;
+  background: none;
 }
 
 .work-grid {
   display: grid;
   grid-template-columns: 1fr;
+  
+}
+
+.project-h3 {
+  font-family: var(--heading-font);
 }
 
 /*Small Tablet styles*/
@@ -166,6 +187,7 @@ background: var(--grey);
 
   .work-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   
    
