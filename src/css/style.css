@@ -260,6 +260,7 @@ ul {
 .navbar {
   position: fixed;
   width: 100%;
+  bottom: 0;
 }
 
 .main-footer,
@@ -269,6 +270,11 @@ ul {
   height: 4rem;
   background-color: var(--primary-pink);
   padding: 1rem;
+}
+
+.main-footer {
+  margin-bottom: 4rem ;
+  border-bottom: 2px solid var(--white);
 }
 
 .projects-heading {
@@ -321,6 +327,7 @@ ul {
 .work-grid {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 10px;;
 }
 
 .project-h3 {
@@ -332,6 +339,14 @@ ul {
   .work-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .navbar {
+    top: 0;
+  }
+  .main-footer {
+    margin-bottom: none ;
+    border-bottom: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -342,5 +357,14 @@ ul {
   .main-footer,
   .navbar {
     font-size: 1.5rem;
+   
   }
+  .navbar {
+    top: 0;
+  }
+
+.main-footer {
+  margin-bottom: none ;
+  border-bottom: none;
+}
 }
