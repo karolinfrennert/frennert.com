@@ -7,7 +7,7 @@ export interface Data {
   projects: Projects;
   footer: MenuItems[];
   aboutSection: string;
-};
+}
 
 export interface Project {
   name: string;
@@ -23,14 +23,19 @@ export type Projects = Project[];
 type MenuItems = {
   href: string;
   text: string;
-}
+};
 
 type Image = {
   src: string;
   alt: string;
   title?: string;
+};
 
-}
-
-type Technology = 'CSS' | 'JavaScript' | 'Firebase' | 'TypeScript' | 'HTML' | 'Java';
-
+type Technology =
+  | "CSS"
+  | "JavaScript"
+  | "Firebase"
+  | "TypeScript"
+  | "HTML"
+  | "Java"
+  | "External API";
