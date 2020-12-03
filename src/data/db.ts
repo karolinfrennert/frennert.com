@@ -67,7 +67,7 @@ export const AllProjects: Projects = [
     github: "https://github.com/karolinfrennert/Brief-3-API",
     demo: "https://date-planner.netlify.app/",
     image: {
-      src: "https://ibb.co/j4CvBbg",
+      src: "https://i.ibb.co/ysznGdW/dateplanner.png",
       alt: "Date planner landing page",
       title: "Find events!",
     },
