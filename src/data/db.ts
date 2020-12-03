@@ -8,7 +8,7 @@ export const AllProjects: Projects = [
     github: "https://github.com/karolinfrennert/Grocery-List-HyperIsland",
     demo: "https://grocery-list.frennert.com/",
     image: {
-      src: "https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg",
+      src: "https://i.ibb.co/CnZx7z0/shoppinglist.png",
       alt: "Mockup picture of a Mac, showcasing the Grocery-list being used",
       title: "Save your groceries",
     },
