@@ -55,7 +55,7 @@ export const AllProjects: Projects = [
     github: "https://github.com/karolinfrennert/frennert.com",
     demo: "https://portfolio.frennert.com/",
     image: {
-      src: "https://i.ibb.co/sQgpvJP/mockup-Grocery-List.jpg",
+      src: "https://i.ibb.co/qgp1RGS/portfolio.png",
       alt: "Mockup picture displaying the game in the browser",
       title: "Fun game!",
     },
