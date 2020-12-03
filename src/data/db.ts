@@ -62,14 +62,14 @@ export const AllProjects: Projects = [
   },
   {
     name: "Date Planner",
-    technology: ["HTML", "JavaScript", "CSS", "External API"],
+    technology: ["HTML", "JavaScript", "CSS", "REST API"],
     description: "A date planner using the ticketmaster API to fetch events",
     github: "https://github.com/karolinfrennert/Brief-3-API",
     demo: "https://date-planner.netlify.app/",
     image: {
-      src: "",
-      alt: "",
-      title: "",
+      src: "https://ibb.co/j4CvBbg",
+      alt: "Date planner landing page",
+      title: "Find events!",
     },
   },
 ];

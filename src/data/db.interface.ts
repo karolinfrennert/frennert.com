@@ -38,4 +38,4 @@ type Technology =
   | "TypeScript"
   | "HTML"
   | "Java"
-  | "External API";
+  | "REST API";
