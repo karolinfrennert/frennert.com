@@ -38,4 +38,5 @@ type Technology =
   | "TypeScript"
   | "HTML"
   | "Java"
-  | "REST API";
+  | "REST API"
+  | "React"
