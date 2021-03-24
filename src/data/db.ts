@@ -2,6 +2,30 @@ import { Data, Projects } from "../data/db.interface";
 
 export const AllProjects: Projects = [
   {
+    name: "General knowlede quiz",
+    technology: ["React", "TypeScript", ],
+    description: "A small quiz built in React and TypeScript testing your knowledge!",
+    github: "https://github.com/karolinfrennert/React-Typescript-Quiz",
+    demo: "",
+    image: {
+      src: "",
+      alt: " ",
+      title: " ",
+    },
+  },
+  {
+    name: "Movie Search",
+    technology: ["React", ],
+    description: "Serch for you favourite movie",
+    github: "https://github.com/karolinfrennert/React-Movie-API",
+    demo: "",
+    image: {
+      src: "",
+      alt: " ",
+      title: " ",
+    },
+  },
+  {
     name: "Grocery List",
     technology: ["JavaScript", "CSS", "HTML"],
     description: "A grocery list built in vanilla JavaScript",
