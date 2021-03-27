@@ -104,22 +104,7 @@ export const aboutMe: Data = {
   email: "karolin@frennert.com",
   fullName: "Karolin Frennert",
   mainMenu: [
-    {
-      href: "./index.html",
-      text: "Home",
-    },
-    {
-      href: "#about",
-      text: "About",
-    },
-    {
-      href: "#show-projects",
-      text: "Projects",
-    },
-    {
-      href: "#contact",
-      text: "Contact",
-    },
+    
   ],
   projects: AllProjects,
 
